@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
 
+/*
+gris #6C7680
+#57616B
+#737F8B
+jaune #F4BE00
+beige #E6E0D9
+noir #11131F
+bleu #0088a9
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
 }
 
 li,
@@ -12,7 +21,7 @@ button {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #edf0f1;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -20,7 +29,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 25px 10%;
+  background-color: #43484d;
 }
 
 .logo {
@@ -40,13 +50,9 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-nav__links li button:hover {
-  color: #0088a9;
-}
-
 button {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgba(244, 190, 0, 0.9);
   border: none;
   border-radius: 50px;
   cursor: pointer;

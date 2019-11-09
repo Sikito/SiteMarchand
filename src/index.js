@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img className="logo" src="./mylogo.svg" alt="logo" />
+        <img className="logo" src="mylogo.svg" alt="logo" />
 
         <nav>
           <ul className="nav__links">
