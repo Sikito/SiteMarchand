@@ -16,8 +16,10 @@ bleu #0088a9
   padding: 0;
 }
 
-li,
-button {
+/****************  HEADER ********************/
+
+.nav__li,
+.nav__button {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -50,7 +52,7 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-button {
+.nav__button {
   padding: 9px 25px;
   background-color: rgba(244, 190, 0, 0.9);
   border: none;
@@ -59,6 +61,8 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.nav__button:hover {
   background-color: rgba(0, 136, 169, 0.5);
 }
+
+/************************************/

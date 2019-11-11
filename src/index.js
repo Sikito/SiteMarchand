@@ -1,37 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./Pages/Header";
 
 import "./styles.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <img className="logo" src="mylogo.svg" alt="logo" />
-
-        <nav>
-          <ul className="nav__links">
-            <li>
-              <button>Accueil</button>
-            </li>
-            <li>
-              <button>Produits</button>
-            </li>
-            <li>
-              <button>Espace Client</button>
-            </li>
-            <li>
-              <button>Contact</button>
-            </li>
-            <li>
-              <button>Blog</button>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  );
+  return <Header />;
 }
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById("header");
 ReactDOM.render(<App />, rootElement);
