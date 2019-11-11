@@ -12,7 +12,7 @@ function App() {
     <div className="Wrapper">
       <Header />
 
-      <Router basename="/SiteMarchand/">
+      <Router basename="/">
         <div className="App">
           <div className="App__Aside" />
           <div className="App__Form">
