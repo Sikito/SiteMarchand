@@ -32,7 +32,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 10%;
-  background-color: #43484d;
+  background-color: #2e3235;
 }
 
 .logo {
@@ -79,12 +79,12 @@ header {
 
 .Aside {
   width: 50%;
-  background-color: #66dac7;
+  background-color: rgba(244, 190, 0, 0.9);
 }
 
 .Inscription__Form {
   width: 50%;
-  background-color: #2e4158;
+  background-color: #686c70;
   padding: 25px 40px;
   overflow: auto;
 }
@@ -108,7 +108,7 @@ header {
   width: 85%;
   background-color: transparent;
   border: none;
-  color: white;
+  color: #ffffff;
   outline: none;
   border-bottom: 1px solid #445366;
   font-size: 1em;
@@ -118,13 +118,13 @@ header {
 }
 
 .FormField__Input::placeholder {
-  color: #616e7f;
+  color: #f4be00;
 }
 
 .FormField__Button {
   font-family: Montserrat, sans-serif;
-  background-color: #52c4b9;
-  color: white;
+  background-color: #f4be00;
+  color: #ffffff;
   border: none;
   outline: none;
   border-radius: 25px;
