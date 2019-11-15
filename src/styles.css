@@ -95,7 +95,7 @@ header {
 }
 
 .PageSwitcher__Item {
-  background-color: #4c5d72;
+  background-color: #2e3235;
   color: #9da6b1;
   padding: 10px 25px;
   cursor: pointer;
@@ -107,7 +107,7 @@ header {
 }
 
 .PageSwitcher__Item--Active {
-  background-color: #5ed0c0;
+  background-color: rgba(244, 190, 0, 0.9);
   color: white;
 }
 
